@@ -1,0 +1,47 @@
+.container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+  background: rgb(149, 231, 206);
+}
+
+.container form input {
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 8px;
+  border: none;
+  margin: 10px 0;
+}
+
+.container form button {
+  font-size: 15px;
+  font-weight: 700;
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  width: 200px;
+  margin-top: 30px;
+  background: rgb(109, 219, 118);
+}
+
+.container form button:hover {
+  box-shadow: 1px 1px #53a7ea, 2px 2px #53a7ea, 3px 3px #53a7ea;
+  -webkit-transform: translateX(-3px);
+  transform: translateX(-3px);
+}
+
+.container p {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.container .logged {
+  color: green;
+}
+
+.container .failed {
+  color: red;
+}
